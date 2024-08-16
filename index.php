@@ -1,2 +1,8 @@
 <?php
-# 沉默是金.
+require_once "applications/application.php";
+require_once "applications/var.php";
+
+@map("/");
+if ($y){
+    echo "Hello";
+}
